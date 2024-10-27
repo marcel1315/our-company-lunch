@@ -45,7 +45,7 @@ scrape_configs:
     follow_redirects: true
     static_configs:
       - targets:
-          - host.docker.internal:8080
+          - host.docker.internal:8085
   - job_name: ourcompanylunchauth
     scrape_interval: 10s
     scrape_timeout: 3s
