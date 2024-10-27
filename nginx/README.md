@@ -21,3 +21,21 @@
   ```
   nginx -t
   ```
+
+# Mac 에서 nginx 설정
+
+- nginx 설정 추가. 해당 디렉토리에 있는 파일의 내용을 붙여넣음
+  ```
+  cd /opt/homebrew/etc/nginx/servers/
+  sudo vi ourcompanylunch.conf  
+  ```
+
+- nginx 설정 테스트
+  ```
+  sudo nginx -t
+  ```
+
+- nginx 재시작
+  ```
+  sudo nginx -s reload
+  ```
